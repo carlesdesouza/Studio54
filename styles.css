@@ -25,13 +25,8 @@
     src:url(fonts/newItalic.woff2);
 }
 
-html, body{
-    width: 100%;
-    overflow-x: hidden;
-}
-body{
-    position: relative;
-}
+
+
 .section-color{
     background-color: var(--black);
 }
