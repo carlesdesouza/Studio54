@@ -24,11 +24,6 @@
     font-family:"Italic";
     src:url(fonts/newItalic.woff2);
 }
-*{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -msbox-sizing: border-box;
-}
 
 html, body{
     width: 100%;
