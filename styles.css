@@ -27,7 +27,6 @@
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    -msbox-sizing: border-box;
 }
 
 html, body{
@@ -75,7 +74,10 @@ p.black-text{
     font-family: "Montserrat-SemiBold";
     font-size: 18px;
 }
-#girl-img{
+.col-md-6{
+    text-align: center;
+}
+#home-img{
     width: 284px;
     margin-bottom: 20px;
 }
@@ -89,6 +91,26 @@ p.black-text{
 }
 .emoji{
     width: 200px;
+}
+#dancers-col{
+    display: grid;
+    justify-content: center;
+}
+.dancers{
+    position: relative;
+    height: 210px;
+    width: 200px;
+}
+#man{
+    position: absolute;
+    height: 240px;
+    right: 20px;
+    bottom: 0;
+}
+#woman{
+    position: absolute;
+    left: 20px;
+    bottom: 0;
 }
 #testimonials{
     text-align: center;
